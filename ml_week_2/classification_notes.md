@@ -1,6 +1,14 @@
 # Supervised Learning Classification
 
-## Discriminant Analysis
+**Algrithms to Learn**
+
+1. Logistic Regression
+2. Support Vector Machine
+3. Discriminant Analysis
+4. Naïve Bayes
+5. K-Nearest Neighbours
+
+## 3. Discriminant Analysis
 
 Discriminant Analysis is a family of supervised classification methods that model each class's distribution and then use Bayes' rule to assign the most likely class.
 
