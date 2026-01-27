@@ -5,7 +5,22 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "ipykernel",
-    "numpy",
-    "scikit-learn",
+    "ipykernel>=7.1.0",
+    "jupyterlab>=4.5.2",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.1",
+    "scikit-learn>=1.8.0",
 ]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.6",
+    "ty>=0.0.1a7",
+]
+
+[tool.ruff]
+line-length = 130
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
